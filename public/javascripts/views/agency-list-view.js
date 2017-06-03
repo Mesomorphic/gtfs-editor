@@ -133,7 +133,7 @@
       buildMap: function() {
 
           // Base layer config is optional, default to Mapbox Streets
-        var url = 'http://{s}.tiles.mapbox.com/v3/' + G.config.mapboxKey + '/{z}/{x}/{y}.png',
+        var url = 'https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/256/{z}/{x}/{y}?access_token=' + G.config.mapboxKey,
             baseLayer = L.tileLayer(url, {
               attribution: '&copy; OpenStreetMap contributors, CC-BY-SA. <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
             });

@@ -86,7 +86,7 @@ var GtfsEditor = GtfsEditor || {};
         tileKey = G.config.mapboxKey;
 
 
-      var url = 'http://{s}.tiles.mapbox.com/v3/' + tileKey + '/{z}/{x}/{y}.png',
+      var url = 'https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/256/{z}/{x}/{y}?access_token=' + tileKey,
           baseLayer = L.tileLayer(url, {
             attribution: '&copy; OpenStreetMap contributors, CC-BY-SA. <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
           });
