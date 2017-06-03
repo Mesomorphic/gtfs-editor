@@ -3,7 +3,7 @@ var GtfsEditor = GtfsEditor || {};
 (function(G, $) {
 
   G.config = {
-  	mapboxKey: 'conveyal.map-jc4m5i21',
+  	mapboxKey: 'pk.eyJ1IjoibGFpZGlnIiwiYSI6ImNqM2hsb216ZjAwaG8ycW15eDQ4amZvNHIifQ.AFQ1Fvljbppie7lLMVl1pQ',
   	mapboxSatelliteKey: 'conveyal.map-a3mk3jug',
     agencyId: 1,
     mapCenter: [38.923092, -77.038879],
